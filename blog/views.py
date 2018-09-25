@@ -6,3 +6,6 @@ def home(request):
 
 def about(request):
     return HttpResponse("<h1>Blog about</h1>")
+
+def random(request):
+    return HttpResponse("Random")
